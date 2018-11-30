@@ -3319,11 +3319,11 @@ input, select, textarea {
 
 	/* remove this for avatar photo */
 	#header header {
-		margin: 5em 0 4em 0;
+		margin: 5em 0 4.74em 0;
 	}
 
 	#header #nav {
-		margin-bottom: 3.7em;
+		margin-bottom: 3em;
 	}
 
 	#header footer p {
