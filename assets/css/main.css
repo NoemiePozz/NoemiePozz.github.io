@@ -110,14 +110,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
-		color: inherit;
+		/*border-bottom: solid 1px #e4e4e4;*/
+		color: inherit; 
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			/*color: #4acaa8 !important;*/
 		}
 
 	strong, b {
@@ -2228,6 +2228,46 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
+/*css guillaume*/
+.img-sensible { max-width:350px; 
+}
+.twAudessus {
+  /* La trame de fond */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(0,0,0,0.7);
+  /*-webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in; */
+}
+.twAudessus a {
+  /* Le truc pour centrer l’image */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.twAudessus img {
+  /* Le contour de l’image */
+  max-width:1200px;
+  background: #ffffff;
+}
+.twAudessus:target {
+  /* Affichage de l’image */
+  display: table;
+   -webkit-transition: width 2s;
+    transition: width 2s;
+}
+@media screen and (max-width: 1600px){.twAudessus img { max-width:1200px; }}
+@media screen and (max-width: 1024px){.twAudessus img { max-width:800px; }}
+@media screen and (max-width: 800px){.twAudessus img { max-width:600px; }}
+@media screen and (max-width: 600px){.twAudessus img { max-width:400px; }}
+@media screen and (max-width: 500px){.twAudessus img { max-width:300px; }}
+
 /* Actions */
 
 	ul.actions {
@@ -2698,12 +2738,8 @@ input, select, textarea {
 			color: #b7eadc;
 		}
 
-		#header a {
-			color: #d2f2e9;
-		}
-
 			#header a:hover {
-				color: #ffffff !important;
+				/*color: #ffffff !important;*/
 			}
 
 		#header > header {
