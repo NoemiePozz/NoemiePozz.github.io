@@ -3018,13 +3018,13 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 44px 0 1px 0;
+				padding: 0;
 				margin-left: 20em;
 			}
 
 		/* Header Panel */
 
-			#titleBar {
+			/* #titleBar {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -3094,7 +3094,7 @@ input, select, textarea {
 						top: 0;
 						width: 64px;
 						right: 0;
-					}
+					} */
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
 				-moz-transform: translateX(-23em);
@@ -3244,7 +3244,7 @@ input, select, textarea {
 
 		/* Header Panel */
 
-			#titleBar .toggle {
+			/* #titleBar .toggle {
 				height: 4em;
 				width: 6em;
 			}
@@ -3252,7 +3252,7 @@ input, select, textarea {
 				#titleBar .toggle:before {
 					font-size: 14px;
 					width: 44px;
-				}
+				} */
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
 				-moz-transform: translateX(-17em);
